@@ -4,9 +4,9 @@
 ######  Dr Aditya Nigam
 
 #### Group Members:
-`b18084 Saatvik Chugh`
+* b18084 Saatvik Chugh
 
-`b18175 Manav Mehta`
+* b18175 Manav Mehta
 
 
 
@@ -51,8 +51,8 @@ The Students Dining Problem
 
 ### Requirements and executing
 
-`make all`
-`./a.out`
+* `make all`
+* `./a.out`
 
 
 ### Language and Modules used
