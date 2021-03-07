@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iterator": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "fstream": "cpp",
+        "locale": "cpp",
+        "__mutex_base": "cpp",
+        "thread": "cpp",
+        "__locale": "cpp",
+        "__string": "cpp",
+        "ios": "cpp"
+    }
+}
