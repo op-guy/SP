@@ -1,10 +1,11 @@
-System Practicum Assignment 1
+### System Practicum Assignment 1
 
-Course Instructor: Dr Aditya Nigam
+## Course Instructor: 
+#  Dr Aditya Nigam
 
-Group Members:
-b18084 Saatvik Chugh
-b18175 Manav Mehta
+## Group Members:
+# b18084 Saatvik Chugh
+# b18175 Manav Mehta
 
 
 
