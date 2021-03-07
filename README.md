@@ -1,3 +1,15 @@
+### System Practicum Assignment 1
+
+##### Course Instructor: 
+######  Dr Aditya Nigam
+
+#### Group Members:
+* b18084 Saatvik Chugh
+
+* b18175 Manav Mehta
+
+
+
 # Question 1
 
 ### oz
@@ -39,8 +51,8 @@ The Students Dining Problem
 
 ### Requirements and executing
 
-`make all`
-`./a.out`
+* `make all`
+* `./a.out`
 
 
 ### Language and Modules used
