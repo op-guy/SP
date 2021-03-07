@@ -4,8 +4,8 @@
 ######  Dr Aditya Nigam
 
 #### Group Members:
-##### b18084 Saatvik Chugh
-##### b18175 Manav Mehta
+b18084 Saatvik Chugh
+b18175 Manav Mehta
 
 
 
