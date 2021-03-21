@@ -53,10 +53,10 @@ C++ 11
 
 ### Merge-sort using threads
 
-To run the standard mergesort
+To run the standard mergesort which doesn't use threads
 
 * `make old_mergesort`
-* `./a.out [number of threads] [size of array]`
+* `./a.out [size of array]`
 
 
 

@@ -6,24 +6,21 @@
 using namespace std;
 
 void merge(int* arr, int l, int mid, int r) {
-	int tmp[r - l + 1];
-	int i = l, j = mid + 1, k = 0;
-	while(i <= mid && j <= r) {
-		if(arr[i] <= arr[j]) {
-			tmp[k++] = arr[i++];
+	int p1 = l, p2 = mid + 1;
+	while(p1 <= mid && p2 <= r) {
+		if(arr[p1] <= arr[p2]) {
+			p1++;
 		}
 		else {
-			tmp[k++] = arr[j++];
+			int i = p2;
+			while(i > p1) {
+				swap(arr[i], arr[i - 1]);
+				i--;
+			}  
+			mid++;
+			p2++;
+			p1++;
 		}
-	}
-	while(i <= mid) {
-		tmp[k++] = arr[i++];
-	}
-	while(j <= r) {
-		tmp[k++] = arr[j++];
-	}
-	for(int itr = l, k = 0;itr <= r;itr++,k++) {
-		arr[itr] = tmp[k];
 	}
 	return;
 }
@@ -52,7 +49,7 @@ string sorted(int* arr, int n) {
 
 
 int main(int argc, char* argv[]) {
-	int m = stoi(argv[1]) ,n = stoi(argv[2]);
+	int n = stoi(argv[1]);
 	int* arr = (int *)malloc(sizeof(int)*n);
 	for(int i = 0;i < n;i++) {
 		arr[i] = ((double)rand()/ RAND_MAX) * 10000;
