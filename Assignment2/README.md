@@ -18,13 +18,14 @@
 
 ### Requirements and executing
 
-Modules are present in the crash_modules folder
+Modules are present in the q1 folder along with the make file
 [module] + [1,2,3]
 
-To install a module 
+To install the modules 
 
-* `make module-[number]`
-* `sudo insmod module-[number]`
+* `make all`
+* `sudo insmod module-[number].ko`
+   number can be [1,2,3]
 * `sudo rmmod module-[number]`
 
 
